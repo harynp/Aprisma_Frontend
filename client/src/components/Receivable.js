@@ -41,7 +41,7 @@ class Receiveable extends Component {
                 <h3>Receiveable</h3>
             </div>
             <div className="card-block">
-            <table class="table table-striped">
+            <table className="table table-striped">
             <thead>
                 <tr>
                     <th>Description</th>
@@ -52,7 +52,7 @@ class Receiveable extends Component {
             <tbody>
                 {this.state.receivement.map((data,idx) => {
                     return (
-                        <tr>
+                        <tr key={idx}>
                             <td>{data.description}</td>
                             <td>{data.amount}</td>
                             <td>{data.due}</td> 

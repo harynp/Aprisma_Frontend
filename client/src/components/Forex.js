@@ -42,7 +42,7 @@ class Forex extends Component {
                  </div>
                  <div className="card-block">
                    <span>As of 20 February 2014</span>
-                   <table class="table table-striped">
+                   <table className="table table-striped">
                        <thead>
                         <tr>
                           <th>Currency</th> 

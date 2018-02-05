@@ -7,23 +7,23 @@ class Nav extends Component {
             <div className="container-fluid">
             <ul className="nav nav-tabs">
                 <li className="fa fa-home" style={homeStyle}></li>
-                <li class="nav-item" style={liStyle}>
-                    <a className="nav-link" href="#">My Tasks</a>
+                <li className="nav-item" style={liStyle}>
+                    <a className="nav-link">My Tasks</a>
                 </li>
                 <li className="nav-item dropdown" style={liStyle}>
-                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Account</a>
+                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account</a>
                 </li>
                 <li className="nav-item dropdown" style={liStyle}>
-                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Transactions</a>
+                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Transactions</a>
                 </li>
                 <li className="nav-item dropdown" style={liStyle}>
-                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Transfer</a>
+                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Transfer</a>
                 </li>
                 <li className="nav-item dropdown" style={liStyle}>
-                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Payments</a>
+                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Payments</a>
                 </li>
                 <li className="nav-item dropdown" style={liStyle}>
-                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Liquidity</a>
+                    <a className="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Liquidity</a>
                 </li>
             </ul>
             </div>

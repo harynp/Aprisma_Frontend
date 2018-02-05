@@ -19,7 +19,6 @@ const data = {
 
 class BarKotak extends Component {
     render() {
-        const {divStyle} = styles
         return (
         <div className="card">
             <div className="card-header ">
@@ -35,13 +34,6 @@ class BarKotak extends Component {
             </div>
         </div>
         )
-    }
-}
-
-const styles = {
-    divStyle: {
-        borderStyle: 'solid',
-        borderWidth: 5  
     }
 }
 

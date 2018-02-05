@@ -46,7 +46,7 @@ class PayAbles extends Component {
                 <h3>Payables</h3>
             </div>
             <div className="card-block">
-            <table class="table table-striped">
+            <table className="table table-striped">
                     <thead>
                     <tr>
                         <th>Description</th>
@@ -58,7 +58,7 @@ class PayAbles extends Component {
                     <tbody>
                         {this.state.payment.map((data,idx) => {
                             return (
-                            <tr>
+                            <tr key={idx}>
                                 <td>{data.description}</td>
                                 <td>{data.amount}</td>
                                 <td>{data.benefit}</td>

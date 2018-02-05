@@ -54,7 +54,6 @@ const Graph = class Mix extends Component {
 		}, 5000);
 	}
 	render() {
-		const {divStyle} = styles
 		return (
 			<div className="card">
 			  <div className="card-block">
@@ -65,13 +64,6 @@ const Graph = class Mix extends Component {
 	}
 }
  
-const styles = {
-	divStyle: {
-		marginTop: 10,
-		marginBottom: 10,
-		padding: 10
-	}
-}
 export default Graph
 	
   

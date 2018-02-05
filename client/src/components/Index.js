@@ -13,15 +13,15 @@ class Index extends Component {
     render () {
         const {cardStyle, divStyle} = styles
         return (
-            <div class="col-md-12 card container-fluid" style={divStyle}>
-                <div class="row">
-                <div class="card-block col-sm-6" style={divStyle}>
+            <div className="col-md-12 card container-fluid" style={divStyle}>
+                <div className="row">
+                <div className="card-block col-sm-6" style={divStyle}>
                     <Login/>
                     <Pie/>
                     <MostVisited/>
                     <ForexRate/>
                 </div>
-                <div class="card-block col-md-6" style={cardStyle}>
+                <div className="card-block col-md-6" style={cardStyle}>
                     <Receiveable/>
                     <Payable/>
                     <BarIncome/>
